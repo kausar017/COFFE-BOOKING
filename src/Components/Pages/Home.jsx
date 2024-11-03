@@ -8,7 +8,6 @@ import { Outlet, useLoaderData } from 'react-router-dom';
 const Home = () => {
 
     const Catagoryis = useLoaderData();
-    console.log(Catagoryis);
 
 
     return (

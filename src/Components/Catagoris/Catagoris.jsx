@@ -9,7 +9,7 @@ const Catagoris = ({ Catagoryis }) => {
         <div>
             <div role="tablist" className="tabs tabs-lifted">
                 {
-                    Catagoryis.map((Catagory) => <NavLink to={`/catagory/${Catagory.category}`} key={Catagory.id} role="tab" className="tab">{Catagory.category}
+                    Catagoryis.map((Catagory) => <NavLink to={`/catagory/${Catagory.category}`} key={Catagory.id} role="tab" className="tab text-2xl">{Catagory.category}
                     </NavLink>)
                 }
 
