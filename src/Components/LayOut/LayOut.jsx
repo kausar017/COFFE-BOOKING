@@ -8,7 +8,9 @@ const LayOut = () => {
     return (
         <div>
             {/* Navbar */}
-            <Navbar></Navbar>
+            <div className='h-20'>
+                <Navbar></Navbar>
+            </div>
             {/* OutLIne / Dynamic section*/}
             <div className='min-h-[calc(100vh-232px)] container mx-auto'>
                 <Outlet></Outlet>
